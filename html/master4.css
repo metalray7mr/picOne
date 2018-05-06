@@ -1,0 +1,134 @@
+.profile3 {
+  display: inline-block;
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  border: 0.1em solid  rgba(208,53,214,0.7) ;
+  box-shadow: 2px 4px 20px 4px #0000001f;
+  position: absolute;
+  top: 1em;
+  animation: fadeIn 1s ease-out;
+  text-align: center;
+  color: rgba(208,53,214,0.9);
+}
+.profile-box3{
+  position: relative;
+  padding: 3px 3px 3px 3px;
+  border-radius: 50%;
+  width: 5.4em;
+  height: 5.4em;
+}
+.profile3-sub-info{
+  text-align: center;
+  font-weight: 800;
+}
+.single-chat-list{
+  margin: 3em 3em 8em 3em;
+  overflow: auto;
+  height: 68vh;
+  color: #310533;
+}
+.single-chat-content-other{
+  border: 0.1em solid  rgba(208,53,214,0.7) ;
+  padding: 0.5em 2em 2em 2em;
+  border-radius: 0em 2em 2em 2em;
+  margin: 1em;
+  box-shadow: 2px 4px 20px 4px #7373731f;
+}
+.single-chat-content-you{
+  border: 0.1em solid  rgba(208,53,214,0.7) ;
+  padding: 0.5em 2em 2em 2em;
+  border-radius: 2em 2em 0em 2em;
+  margin: 1em;
+  box-shadow: 2px 4px 20px 4px #7373731f;
+}
+
+.single-chat-text-other{
+      margin: 1em 0em 0em 1em;
+      2em 2em 0em 2em;
+}
+.text-input-box{
+  position: relative;
+  background-color: white;
+  border: 0.1em solid  rgba(208,53,214,0.7) ;
+  padding: 0.5em 2em 2em 2em;
+  border-radius: 2em ;
+  margin: 1em;
+  height: 2em;
+  box-shadow: 2px 4px 20px 4px #7373731f;
+}
+.text-input-box-danger{
+    position: relative;
+    background-color: white;
+    border: 0.1em solid rgba(255, 3, 8, 0.7);
+    padding: 0.5em 2em 2em 2em;
+    border-radius: 2em;
+    margin: 1em;
+    height: 2em;
+    box-shadow: 2px 4px 20px 4px #ff02023d;
+}
+.footer-input{
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  left: 1em;
+}
+.send-button{
+  cursor: pointer;
+  background-color: #df53e3cc;
+  height: 3em;
+  width: 3em;
+  position: absolute;
+  right: 1em;
+  border-radius: 1.3em;
+  top: 0.7em;
+  display: inline-flex;
+}
+.send-button:hover{
+  background-color: #9d5b9fcc;
+}
+.send-button:active{
+  background-color: #6c086fcc;
+}
+.input-box{
+    margin: 0.5em 1em -01em 1em;
+}
+.input{
+  border-style: none;
+  outline: none;
+  width: 95%;
+  height: 1.5em;
+  color: #8d2090;
+}
+.input2{
+  border-style: none;
+  outline: none;
+  width: 100%;
+  margin: 0em 1em 1em -2em;
+  height: 2.5em;
+  color: #8d2090;
+}
+.text-form{
+  margin: 5em -2em 1em -2em;
+}
+.upload-btn-wrapper {
+  margin-top: 3em;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 1px solid  #e575e8;
+  color:  #e575e8;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 1em;
+}
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}

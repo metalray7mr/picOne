@@ -1,0 +1,84 @@
+.header{
+  position: relative;
+}
+.header-user{
+    position: absolute;
+    display: block;
+    right: 1em;
+    top: -0.5em;
+    font-size: 1.5em;
+    color: #9a0c9d;
+    font-weight: 500;
+    cursor: pointer;
+    text-shadow: -1px 12px 13px #00000014;
+}
+.header-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+.header .button {
+  margin: 1em 3em 1em 3em;
+  color: #d13bd5;
+  font-size: 2em;
+  cursor: pointer;
+}
+.header .button:hover {
+  margin: 2em;
+  color: #8d2090;
+  font-size: 2em;
+  cursor: pointer;
+}
+.chat-list{
+  margin: 2em;
+}
+.chat-content{
+  border: 0.1em solid  rgba(208,53,214,0.7) ;
+  padding: 0.5em 2em 2em 2em;
+  border-radius: 2em;
+  margin: 1em;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  box-shadow: 2px 4px 20px 4px #7373731f;
+}
+.chat-content-main{
+  position: relative;
+  display: inline-flex;
+}
+.chat-content:hover{
+  background: rgba(237, 176, 239, 0.58);
+  border: 0.1em solid  rgba(237, 176, 239, 0.58);
+  padding: 0.5em 2em 2em 2em;
+  border-radius: 2em;
+  margin: 1em;
+  transform: translateY(-0.2em);
+}
+.chat-content .text{
+  color: #ac1cb0;
+  font-size: 1.1em;
+}
+.chat-content-name{
+  margin: 1em 1em 1em 0em;
+  font-weight:bolder;
+  color: #6b036e;
+}
+.accept-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+ .svg{
+  transform: rotate(-180deg);
+  height: 5em;
+  cursor: pointer;
+}
+.svg:hover #dislike{
+  height: 5em;
+  fill:#6b036e;
+}
+.timestamp{
+  text-align: right;
+  color: #6b036e;
+}

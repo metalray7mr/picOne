@@ -1,0 +1,61 @@
+.spinner {
+  animation: spinner 1.5s  infinite;
+  transition: 0.2s ease;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.hide{
+  opacity: 0;
+}
+.validation-loader{
+  height: 3em;
+  position: absolute;
+  right: 0.1em;
+  border-radius: 1.3em;
+  top: 0.7em;
+  display: inline-flex;
+}
+.alert-text{
+  text-align: center;
+  color:red;
+  display: block;
+}
+.text-box-header{
+  margin-left: 1em;
+  font-weight: 600;
+  color: #6c086f;
+}
+.login-form{
+  margin-top: 10em;
+}
+.submit-button{
+  cursor: pointer;
+  background: -moz-linear-gradient(-45deg, rgba(208,53,214,0.7) 0%, rgba(136,50,168,0.8) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(208,53,214,0.7) 0%,rgba(136,50,168,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(208,53,214,0.7) 0%,rgba(136,50,168,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  border-radius: 2em;
+  box-shadow: 2px 4px 20px 4px #7373731f;
+  outline: none;
+  text-align: center;
+  margin: 2em 1em 1em 1em;
+  padding: 1em;
+  font-size: 2em;
+  color: white;
+}
+.submit-button:hover{
+    background: linear-gradient(135deg, rgba(208,53,214,0.7) 0%,rgba(176, 99, 205, 0.8) 100%);
+}
+.link{
+  font-size: 2em;
+  font-family: 'Shadows Into Light';
+  color: rgba(208,53,214,0.9);
+  text-align: center;
+  cursor: pointer;
+}

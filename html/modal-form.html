@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input type="file" />
+    <button type="button" id="btn" name="button">click</button>
+    <script src="https://raw.githubusercontent.com/blueimp/JavaScript-Canvas-to-Blob/master/js/canvas-to-blob.js" charset="utf-8"></script>
+    <script>
+    document.getElementById('btn').addEventListener("click",function(){
+      var windowURL = $window.URL || $window.webkitURL;
+      var imageFile = document.querySelector("input[type='file']");
+      var imageUrl = windowURL.createObjectURL(imageFile);
+
+      function crop(image, x1, y1, x2, y2) {
+          var canvas = document.createElement('canvas');
+
+          canvas.setAttribute('width', x2 - x1);
+          canvas.setAttribute('height', y2 - y1);
+
+          var context = canvas.getContext('2d');
+          context.drawImage(image, -x1, -y1);
+
+          return canvas;
+        }
+    })
+
+    </script>
+  </body>
+</html>
+<!-- var formData = new FormData();
+var fileField = document.querySelector("input[type='file']");
+document.getElementById('btn').addEventListener("click",function(){
+
+ formData.append('username', 'abc123');
+ formData.append('avatar', fileField.files[0]);
+ console.log(formData);
+ fetch(myfunction(), {
+ method: 'PUT',
+ body: formData
+ })
+ .then(response => response.json())
+ .catch(error => console.error('Error:', error))
+ .then(response => console.log('Success:', response));
+}) -->

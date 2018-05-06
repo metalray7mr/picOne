@@ -1,22 +1,55 @@
-# React Redux Firebase Chat
-A simple web-based Chat App with Google Firebase, React and Redux. This project is under active development so
-don't expect any kind of special output yet but the development environment is good :relieved:
+﻿# [picOne](https://messanging-app-e0266.firebaseapp.com)
 
-## Instructions
+*A ReactJS powered Sarahah type web (chat) application using Firebase Realtime Database.*
 
-To use the app you need to create a Firebase account and replace the configuration in `config.js` 
-with your own config variables. For authentication you would also need to signup in Facebook developer
-and and get an app ID and App Secret. Furthermore, you should enter these info in your Firebase console
-to activate authentication with Facebook. Fore more info read [this part of Firebase docs](https://firebase.google.com/docs/auth/web/facebook-login).
+### [Live](https://messanging-app-e0266.firebaseapp.com)
 
-After having the basics, clone this repository and simply use npm to install and run the project:
+## Features
 
-```bash
+ - Send message instantly being anonymous (no login is required).
+
+ - Send Messages to any user by going to  url/userId .
+
+ - To create Id SignUp with unique userID.
+
+ - Supported platform **Android**, **iOS** & **Windows**.
+
+ - Supported browsers **Chrome**, **Firefox**, **Opera**, **Safari** & **Edge**.
+
+
+## Build Tools
+
+- <a href="https://firebase.google.com/docs/web/setup">Firebase Realtime Database</a>
+
+
+*few other utility libraries, check my package.json file*
+
+### Installation
+
+````sh
 npm install
-npm run watch
-```
-And for tests (for now only for reducers):
+````
 
-```bash
-npm run test
-```
+### Run
+
+````sh
+npm run start
+````
+
+### Build
+
+````sh
+npm run build
+````
+
+### Deploy
+
+After running `npm run build`, use below command to deploy in gh-pages
+
+````sh
+npm run deploy
+````
+
+### Contributions & Feature Request
+
+If you find a bug or nice to have feature, please feel free to create an issue  :)
